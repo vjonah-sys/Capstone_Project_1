@@ -7,7 +7,7 @@ function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_KEY = "YOUR_OMDB_API_KEY"; // replace with your real key
+  const API_KEY = "4f7e6254"; // replace with your real key
 
   const searchMovies = async (query) => {
     try {
